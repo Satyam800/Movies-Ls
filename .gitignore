@@ -1,4 +1,5 @@
-node_modules/
-.parcel-cache/
-coverage/
-dist/
+/node_modules
+/dist
+/action
+/coverage
+/.parcel-cache
