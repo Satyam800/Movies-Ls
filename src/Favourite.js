@@ -17,7 +17,7 @@ console.log(j,"jj")
         <>
 
 
-        <div className=" flex flex-wrap  mt-40 space-x-1  absolute  ">
+        <div className=" flex flex-wrap  mt-40 space-x-1  absolute sm:ml-[20%] ml-[10%] ">
           {
              j?.map((item)=>{
                

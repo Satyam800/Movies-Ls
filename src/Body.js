@@ -1,6 +1,6 @@
 import React,{useState,useEffect,useCallback} from "react"
 import Card from "./Card"
-import { Constant } from "../Constant"
+import { Constant } from "./Constant"
 import {Link} from "react-router-dom"
 import { useDispatch } from "react-redux"
 import {useSelector} from "react-redux"
@@ -95,10 +95,10 @@ const getmovie=useSelector(store=>store.movie?.data.item)
         </div>:null}
 
         
-      <div className="flex flex-col ">
+      <div className="flex flex-column sm:flex sm:flex-wrap ">
      
         
-        <div className="flex absolute mt-60 flex-wrap justify-evenly ">
+        <div className="flex  absolute mt-60 flex-wrap justify-evenly ">
      { getmovie?.map((item)=>{
    return <Card item={item} key={item?.id } />
           
