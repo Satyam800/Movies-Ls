@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html",
     "test": "jest",
-     "build": "build parcel",
+     "build": "parcel build",
   },
   "keywords": [],
   "author": "",
